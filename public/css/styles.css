@@ -18,6 +18,7 @@ body {
 section {
     height: 50vh;
     border-bottom: solid 5px black;
+    color: var(--fcolor);
 }
 
 .sec-container {
@@ -116,18 +117,31 @@ a {
 }
 
 .section2 {
-    background-color: black;
+    background-color: var(--primary);
     display: grid;
-    grid-template-columns: 40% 60%;
 }
 
+.sec2-title {
+    display: grid;
+    justify-content: center;
+    background-color: var(--primary);
+    color: var(--fcolor);
+    font-size: xx-large ;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+}
+
+/* 
 .sec2-picbox {
     background-image: url(/public/images/section2.jpeg);
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
 
-}
+} */
 
 .section3 {
     background-color: var(--primary);
