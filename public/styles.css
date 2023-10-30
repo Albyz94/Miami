@@ -1,11 +1,12 @@
 :root {
 /* FONT */
---mainFont:'Uchen', serif;;
+--mainFont:'Montserrat Alternates', sans-serif;
+--secFont: 'Uchen', serif;
 --secFont:"";
 /* COLORS */
 --primary: rgb(26, 26, 26) ;
 --secondary: rgb(54, 53, 53) ;
---fcolor: rgb(208, 191, 115);
+--fcolor: rgb(249, 249, 249);
 
 }
 
@@ -128,6 +129,8 @@ a {
     background-color: var(--primary);
     color: var(--fcolor);
     font-size: xx-large ;
+    padding-top: 200px;
+    padding-bottom: 95px;
 }
 
 .menu-container {
