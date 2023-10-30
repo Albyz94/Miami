@@ -1,11 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const dotenv = require("dotenv").config();
+
 const Pizza = require("./models/pizzas.js");
 const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
 
-const uri = "mongodb+srv://albyzeta:1234@nodetuts.bfsfj3y.mongodb.net/Menu"
+const pass = process.env.MONGODB_PASS;
+const uri = "mongodb+srv://albyzeta:"+pass+"@nodetuts.bfsfj3y.mongodb.net/Menu"
 
 mongoose.connect(uri).then(()=> {
     app.listen(3000 , (req , res)=> {
@@ -36,8 +39,7 @@ app.get("/menu" , async (req , res)=> {
 });
 
 app.get("/pizzas" , async (req , res) => {
-    const pizzas = await Pizza.find();
-    res.json(pizzas);
+    res.redirect("/menu");
 });
 
 app.use(express.static("public"));
