@@ -1,0 +1,27 @@
+<%- include("./head.ejs") %>
+<section class="section-menu">
+    <div class="sec2-title"> Menu Pizze </div>
+    <div class="menu-pizze">
+        <div></div>
+        <div class="col-1">
+            <% for( const pizza of pizzas ) { %>
+                <div> <%= pizza.name %> </div>
+            <% } %> 
+        </div>
+        <div class="col-2">
+            <% for( const pizza of pizzas ) { %>
+                <div> <%= pizza.ingr %> </div>
+            <% } %>
+        </div>
+        <div class="col-3">
+            <% for( const pizza of pizzas ) { %>
+                <div> <%= pizza.price %> </div>
+            <% } %>
+        </div>
+        <div></div>
+        <div></div>
+ </section>
+
+
+
+<%- include("./footer.ejs") %>

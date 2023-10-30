@@ -1,0 +1,197 @@
+[
+	{
+	"name": "Marinara",
+	"ingr": "Pomodoro, aglio, olio, origano",
+	"price": "€5,00"
+},
+{
+	"name": "Margherita",
+	"ingr": "Pomodoro, mozzarella",
+	"price":"€ 6,00"
+},
+{
+	"name": "Viennese",
+	"ingr": "Pomodoro, mozzarella, wurstel",
+	"price":"€ 7,00"
+},
+{
+	"name": "Diavola",
+	"ingr": "Pomodoro, mozzarella, salamino piccante",
+	"price":"€ 7,00"
+},
+{
+	"name": "Prosciutto",
+	"ingr": "Pomodoro, mozzarella, prosciutto cotto",
+	"price":"€ 7,00"
+},
+{
+	"name": "Funghi",
+	"ingr": "Pomodoro, mozzarella, funghi champignon",
+	"price":"€ 7,00"
+},
+{
+	"name": "Carciofi",
+	"ingr": "Pomodoro, mozzarella, carciofi",
+	"price":"€ 7,00"
+},
+{
+	"name": "Prosciutto e Funghi",
+	"ingr": "Pomodoro, mozzarella, prosciutto cotto, funghi champignon",
+	"price":"€ 8,00"
+},
+{
+	"name": "Capricciosa",
+	"ingr": "Pomodoro, mozzarella, prosciutto cotto, funghi champignon, carciofi",
+	"price":"€ 8,50"
+},
+{
+	"name": "4 Stagioni",
+	"ingr": "Pomodoro, mozzarella, prosciutto cotto, funghi champignon, carciofi, olive nere",
+	"price":"€ 9,00"
+},
+{
+	"name": "4 Formaggi",
+	"ingr": "Pomodoro, mozzarella, formaggi misti",
+	"price":"€ 9,00"
+},
+{
+	"name": "Vegetariana",
+	"ingr": "Pomodoro, mozzarella, peperoni, melanzane, zucchine",
+	"price":"€ 8,50"
+},
+{
+	"name": "Tonno",
+	"ingr": "Pomodoro, mozzarella, tonno",
+	"price":"€ 7,00"
+},
+{
+	"name": "Tonno e cipolla",
+	"ingr": "Pomodoro, mozzarella, tonno, cipolla",
+	"price":"€ 8,00"
+},
+{
+	"name": "Frutti di mare",
+	"ingr": "Pomodoro, mozzarella, frutti di mare",
+	"price":"€ 9,00"
+},
+{
+	"name": "BRG",
+	"ingr": "Pomodoro, mozzarella, bresaola, rucola, grana padano",
+	"price":"€ 9,00"
+},
+{
+	"name": "Fresca",
+	"ingr": "Pomodoro, mozzarella, pomodorini freschi, foglie di basilico",
+	"price":"€ 7,00"
+},
+{
+	"name": "Ai Porcini",
+	"ingr": "Pomodoro, mozzarella, porcini",
+	"price":"€ 8,50"
+},
+{
+	"name": "Trentina",
+	"ingr": "Pomodoro, mozzarella, speck, gorgonzola",
+	"price":"€ 8,50"
+},
+{
+	"name": "Crudo",
+	"ingr": "Pomodoro, mozzarella, prosciutto crudo",
+	"price":"€ 8,00"
+},
+{
+	"name": "Ricotta e Spinaci",
+	"ingr": "Pomodoro, mozzarella, ricotta, spinaci",
+	"price":"€ 7,50"
+},
+{
+	"name": "Pugliese",
+	"ingr": "Pomodoro, mozzarella, cipolla",
+	"price":"€ 6,50"
+},
+{
+	"name": "Romana",
+	"ingr": "Pomodoro, mozzarella, acciughe",
+	"price":"€ 7,00"
+},
+{
+	"name": "Siciliana",
+	"ingr": "Pomodoro, mozzarella, acciughe, capperi, olive nere",
+	"price":"€ 8,50"
+},
+{
+	"name": "Friulana",
+	"ingr": "Pomodoro, mozzarella, patatine, salsiccia",
+	"price":"€ 8,50"
+},
+{
+	"name": "Italia",
+	"ingr": "Pomodoro, mozzarella, rucola, mozzarella di bufala, pomodorini freschi",
+	"price":"€ 9,00"
+},
+{
+	"name": "Araba",
+	"ingr": "Pomodoro, mozzarella, tonno, cipolla, peperoni, olive nere",
+	"price":"€ 9,00"
+},
+{
+	"name": "Mari e Monti",
+	"ingr": "Pomodoro, mozzarella, gamberetti*, porcini ",
+	"price":"€ 9,00"
+},
+{
+	"name": "Boscaiola",
+	"ingr": "Pomodoro, mozzarella, speck, funghi misti",
+	"price":"€ 9,00"
+},
+{
+	"name": "Sole e Mare",
+	"ingr": "Pomodoro, mozzarella, tonno, acciughe, pomodorini",
+	"price":"€ 9,00"
+},
+{
+	"name": "Parmigiana",
+	"ingr": "Pomodoro, mozzarella, melanzane, grana padano",
+	"price":"€ 7,50"
+},
+{
+	"name": "Del Contadino",
+	"ingr": "Pomodoro, mozzarella, brie, salsiccia, pomodorini, porro",
+	"price":"€ 8,50"
+},
+{
+	"name": "Greca",
+	"ingr": "Pomodoro, mozzarella, feta greca, pomodorini, olive nere",
+	"price":"€ 8,50"
+},
+{
+	"name": "Fai da te",
+	"ingr": "Pomodoro, mozzarella, 3 ingredienti a scelta",
+	"price":"€ 9,50"
+},
+{
+	"name": "Fai tu edi",
+	"ingr": "Pizza a scelta del pizzaiolo",
+	"price":"€ 9,00"
+},
+{
+	"name": "Calzone Vulcano",
+	"ingr": "Pomodoro in superficie, mozzarella, prosciutto e funghi",
+	"price":"€ 8,00"
+},
+{
+	"name": "Biancaneve",
+	"ingr": "Mozzarella, carciofi, grana padano",
+	"price":"€ 8,00"
+},
+{
+	"name": "Estate",
+	"ingr": "Mozzarella, pomodorini, zucchine, mais",
+	"price":"€ 8,50"
+},
+{
+	"name": "Saporita",
+	"ingr": "Mozzarella, speck, porcini",
+	"price":"€ 9,00"
+}
+]

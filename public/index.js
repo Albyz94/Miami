@@ -14,3 +14,11 @@ cross.click(()=> {
     cross.addClass("hide");
     navmenu.addClass("hide");
 });
+
+
+$(".margherita").mouseover(()=> {
+    $(".ingMargherita").css("visibility" , "visible");   
+});
+$(".margherita").mouseout(()=> {
+    $(".ingMargherita").css("visibility" , "hidden");   
+});
