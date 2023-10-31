@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 8fr 1fr;
 }
 
-.col-1, .col-2, .col-3 {
+.col-1 {
     display: grid;
     grid-template-rows: auto;
 }
@@ -18,4 +18,17 @@
 .p-name {
     padding-right: 10px;
     border-right: solid 1px white;
+}
+
+.p-name, .p-ingr, .p-price {
+    display: flex;
+    align-items: center;
+}
+
+.bianTit {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
 }

@@ -7,7 +7,6 @@
 --primary: rgb(26, 26, 26) ;
 --secondary: rgb(54, 53, 53) ;
 --fcolor: rgb(249, 249, 249);
-
 }
 
 body {
@@ -21,6 +20,7 @@ section {
     border-bottom: solid 5px black;
     color: var(--fcolor);
     background-color: var(--primary);
+    padding-bottom: 100px;
 }
 
 .sec-container {
@@ -89,7 +89,6 @@ a {
 }
 
 .nav-menu2 {
-    
     position: absolute;
     background-color: var(--primary);
     width: 100%;
@@ -147,116 +146,21 @@ a {
 
 } */
 
-
-
 .section3 {
     background-color: var(--primary);
     
 }
 
-@media screen and (max-width: 1400px) {
-    .sec1-title {
-        display: grid;
-        justify-content: center;
-        font-size: 40px;
-        
-    }
-    
-    .sec1-payoff {
-        display: grid;
-        justify-content: center;
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .section1 {
-        background-color: var(--secondary);
-        background-image: url(/public/images/section1.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode:soft-light;
-        
-    }
-    
-    
-}
-
-@media screen and (max-width: 830px) {
-    .nav-menu {
-        visibility: hidden;
-        font-size: 0;
-    }
-    
-    .nav-container {
-        visibility: hidden;
-        font-size: 0;
-    }
-    
-    .fa-xmark , .fa-bars {
-        padding: 1%;
-        opacity: 100%;
-        position: absolute;
-        justify-self: end;
-        color: var(--fcolor);
-    }
-
-    .nav-container2 {
-        visibility: visible;
-        background-color: var(--secondary);
-        display: grid;
-        justify-content: center;
-        height: 4vh;
-    }
-    
-    .nav-menu2 {
-        position: absolute;
-        background-color: var(--primary);
-        width: 100%;
-        display: grid;
-        justify-content: center;
-    }   
-
-    .sp-left {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        padding-top: 34vh;
-        text-shadow: 2px 7px 10px rgb(0, 0, 0);
-    }
-
-    .sec1-title {
-        display: grid;
-        justify-content: center;
-        font-size: 30px;
-        
-    }
-    
-    .sec1-payoff {
-        display: grid;
-        justify-content: center;
-        font-size: 25px;
-    }
+.footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 
-@media screen and (max-width: 700px) {
-    .sec1-title {
-        display: grid;
-        justify-content: center;
-        font-size: 25px;
-        
-    }
-    
-    .sec1-payoff {
-        display: grid;
-        justify-content: center;
-        font-size: 20px;
-    }
-}
 
-.ingMargherita {
-    margin-bottom: -40px;
-    margin-left: 20px;
-    visibility: hidden;
+.fa-sun, .fa-moon {
+    position: absolute;
+    padding-top: 2px;
+    padding-left: 2px;
+    color: white;
 }

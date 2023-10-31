@@ -8,7 +8,8 @@ mongoose.connect(uri)
 const pizza = new Schema ({
     name: String,
     ingr: String,
-    price: String
+    price: String,
+    type: Number
 });
 
 const Pizza = mongoose.model("Pizza" , pizza);

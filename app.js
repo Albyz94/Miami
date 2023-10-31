@@ -29,8 +29,9 @@ app.get("/" , (req , res) => {
 
 app.get("/menu" , async (req , res)=> {
     try {
-        const pizzas = await Pizza.find();
-        res.render("menu" , {pizzas});
+        const pizzas = await Pizza.find({type:1});
+        const pizzasb = await Pizza.find({type:0});
+        res.render("menu" , {pizzas , pizzasb});
         
     } catch (error) {
         console.error(error);
