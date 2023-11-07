@@ -1,19 +1,19 @@
 <%- include("./head.ejs") %>
 <section class="section-menu">
-    <div class="sec2-title"> Menu Pizze </div>
+    <div class="sec2-title sec2-menu"> <span>Menu Pizze</span> </div>
     <div class="menu-pizze">
         <div></div>
         <div class="col-1">
             <% for( const pizza of pizzas ) { %>
                 <div class="p-row"> <span class="p-name"><%= pizza.name %>:</span>  <span class="p-ingr"><%= pizza.ingr %> </span>  <span class="p-price"><%= pizza.price %></span> </div>
-            <% } %>
-            <div class="bianTit">Pizze Bianche</div>
-            <% for( const pizza of pizzasb ) { %>
-                <div class="p-row"> <span class="p-name"><%= pizza.name %>:</span>  <span class="p-ingr"><%= pizza.ingr %> </span>  <span class="p-price"><%= pizza.price %></span> </div>
-            <% } %>
+                <% } %>
+                <div class="bianTit">Pizze Bianche</div>
+                <% for( const pizza of pizzasb ) { %>
+                    <div class="p-row"> <span class="p-name"><%= pizza.name %>:</span>  <span class="p-ingr"><%= pizza.ingr %> </span>  <span class="p-price"><%= pizza.price %></span> </div>
+                    <% } %>
+                </div>
             </div>
         </div>
-    </div>
  </section>
 
 
