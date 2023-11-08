@@ -4,7 +4,7 @@
 }
 
 .sec2-menu {
-    background-image: url("/images/section2.jpeg");
+    background-image: url("/images/section2.png");
     background-size:50%;
     background-repeat: no-repeat;
     background-position: top;
@@ -12,7 +12,7 @@
 }
 
 .sec2-menu span{
-    background-color: rgba(17, 17, 17, 0.596);
+    background-color: rgb(54, 53, 53, 0.7);
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -23,8 +23,13 @@
     z-index: 3;
 }
 
+.p-row:hover{
+    background-color: var(--secondary);
+    cursor:pointer;
+}
+
 .p-row {
-    border: solid 1px white;
+    border: solid 1px var(--secondary);
     height: auto;
     display: grid;
     grid-template-columns: 2fr 8fr 1fr;
@@ -34,7 +39,7 @@
 
 .p-name {
     padding-right: 10px;
-    border-right: solid 1px white;
+    border-right: solid 1px var(--secondary);
 }
 
 .p-name, .p-ingr, .p-price {
@@ -48,6 +53,12 @@
     font-size: 56px;
     display: flex;
     justify-content: center;
+}
+
+.bianche {
+    background-color: rgb(54, 53, 53, 0.7);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .clap {

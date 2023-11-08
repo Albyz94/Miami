@@ -50,7 +50,7 @@
         background-color: var(--secondary);
         display: grid;
         justify-content: center;
-        height: 4vh;
+        min-height: 25px;
     }
     
     .nav-menu2 {
