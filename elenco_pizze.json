@@ -2,196 +2,274 @@
 	{
 	"name": "Marinara",
 	"ingr": "Pomodoro, aglio, olio, origano",
-	"price": "€5,00"
+	"price": "€5,00",
+	"type": 1,
+	"pos": 1
 },
 {
 	"name": "Margherita",
 	"ingr": "Pomodoro, mozzarella",
-	"price":"€ 6,00"
+	"price":"€ 6,00",
+	"type": 1,
+	"pos": 2
 },
 {
 	"name": "Viennese",
 	"ingr": "Pomodoro, mozzarella, wurstel",
-	"price":"€ 7,00"
+	"price":"€ 7,00",
+	"type": 1,
+	"pos": 3
 },
 {
 	"name": "Diavola",
 	"ingr": "Pomodoro, mozzarella, salamino piccante",
-	"price":"€ 7,00"
+	"price":"€ 7,00",
+	"type": 1,
+	"pos": 4
 },
 {
 	"name": "Prosciutto",
 	"ingr": "Pomodoro, mozzarella, prosciutto cotto",
-	"price":"€ 7,00"
+	"price":"€ 7,00",
+	"type": 1,
+	"pos": 5
 },
 {
 	"name": "Funghi",
 	"ingr": "Pomodoro, mozzarella, funghi champignon",
-	"price":"€ 7,00"
+	"price":"€ 7,00",
+	"type": 1,
+	"pos": 6
 },
 {
 	"name": "Carciofi",
 	"ingr": "Pomodoro, mozzarella, carciofi",
-	"price":"€ 7,00"
+	"price":"€ 7,00",
+	"type": 1,
+	"pos": 7
 },
 {
 	"name": "Prosciutto e Funghi",
 	"ingr": "Pomodoro, mozzarella, prosciutto cotto, funghi champignon",
-	"price":"€ 8,00"
+	"price":"€ 8,00",
+	"type": 1,
+	"pos": 8
 },
 {
 	"name": "Capricciosa",
 	"ingr": "Pomodoro, mozzarella, prosciutto cotto, funghi champignon, carciofi",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 1,
+	"pos": 9
 },
 {
 	"name": "4 Stagioni",
 	"ingr": "Pomodoro, mozzarella, prosciutto cotto, funghi champignon, carciofi, olive nere",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 10
 },
 {
 	"name": "4 Formaggi",
 	"ingr": "Pomodoro, mozzarella, formaggi misti",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 11
 },
 {
 	"name": "Vegetariana",
 	"ingr": "Pomodoro, mozzarella, peperoni, melanzane, zucchine",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 1,
+	"pos": 12
 },
 {
 	"name": "Tonno",
 	"ingr": "Pomodoro, mozzarella, tonno",
-	"price":"€ 7,00"
+	"price":"€ 7,00",
+	"type": 1,
+	"pos": 13
 },
 {
 	"name": "Tonno e cipolla",
 	"ingr": "Pomodoro, mozzarella, tonno, cipolla",
-	"price":"€ 8,00"
+	"price":"€ 8,00",
+	"type": 1,
+	"pos": 14
 },
 {
 	"name": "Frutti di mare",
 	"ingr": "Pomodoro, mozzarella, frutti di mare",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 15
 },
 {
 	"name": "BRG",
 	"ingr": "Pomodoro, mozzarella, bresaola, rucola, grana padano",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 16
 },
 {
 	"name": "Fresca",
 	"ingr": "Pomodoro, mozzarella, pomodorini freschi, foglie di basilico",
-	"price":"€ 7,00"
+	"price":"€ 7,00",
+	"type": 1,
+	"pos": 17
 },
 {
 	"name": "Ai Porcini",
 	"ingr": "Pomodoro, mozzarella, porcini",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 1,
+	"pos": 18
 },
 {
 	"name": "Trentina",
 	"ingr": "Pomodoro, mozzarella, speck, gorgonzola",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 1,
+	"pos": 19
 },
 {
 	"name": "Crudo",
 	"ingr": "Pomodoro, mozzarella, prosciutto crudo",
-	"price":"€ 8,00"
+	"price":"€ 8,00",
+	"type": 1,
+	"pos": 20
 },
 {
 	"name": "Ricotta e Spinaci",
 	"ingr": "Pomodoro, mozzarella, ricotta, spinaci",
-	"price":"€ 7,50"
+	"price":"€ 7,50",
+	"type": 1,
+	"pos": 21
 },
 {
 	"name": "Pugliese",
 	"ingr": "Pomodoro, mozzarella, cipolla",
-	"price":"€ 6,50"
+	"price":"€ 6,50",
+	"type": 1,
+	"pos": 22
 },
 {
 	"name": "Romana",
 	"ingr": "Pomodoro, mozzarella, acciughe",
-	"price":"€ 7,00"
+	"price":"€ 7,00",
+	"type": 1,
+	"pos": 23
 },
 {
 	"name": "Siciliana",
 	"ingr": "Pomodoro, mozzarella, acciughe, capperi, olive nere",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 1,
+	"pos": 24
 },
 {
 	"name": "Friulana",
 	"ingr": "Pomodoro, mozzarella, patatine, salsiccia",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 1,
+	"pos": 25
 },
 {
 	"name": "Italia",
 	"ingr": "Pomodoro, mozzarella, rucola, mozzarella di bufala, pomodorini freschi",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 26
 },
 {
 	"name": "Araba",
 	"ingr": "Pomodoro, mozzarella, tonno, cipolla, peperoni, olive nere",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 27
 },
 {
 	"name": "Mari e Monti",
 	"ingr": "Pomodoro, mozzarella, gamberetti*, porcini ",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 28
 },
 {
 	"name": "Boscaiola",
 	"ingr": "Pomodoro, mozzarella, speck, funghi misti",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 29
 },
 {
 	"name": "Sole e Mare",
 	"ingr": "Pomodoro, mozzarella, tonno, acciughe, pomodorini",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 30
 },
 {
 	"name": "Parmigiana",
 	"ingr": "Pomodoro, mozzarella, melanzane, grana padano",
-	"price":"€ 7,50"
+	"price":"€ 7,50",
+	"type": 1,
+	"pos": 31
 },
 {
 	"name": "Del Contadino",
 	"ingr": "Pomodoro, mozzarella, brie, salsiccia, pomodorini, porro",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 1,
+	"pos": 32
 },
 {
 	"name": "Greca",
 	"ingr": "Pomodoro, mozzarella, feta greca, pomodorini, olive nere",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 1,
+	"pos": 33
 },
 {
 	"name": "Fai da te",
 	"ingr": "Pomodoro, mozzarella, 3 ingredienti a scelta",
-	"price":"€ 9,50"
+	"price":"€ 9,50",
+	"type": 1,
+	"pos": 34
 },
 {
 	"name": "Fai tu edi",
 	"ingr": "Pizza a scelta del pizzaiolo",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 1,
+	"pos": 35
 },
 {
 	"name": "Calzone Vulcano",
 	"ingr": "Pomodoro in superficie, mozzarella, prosciutto e funghi",
-	"price":"€ 8,00"
+	"price":"€ 8,00",
+	"type": 1,
+	"pos": 36
 },
 {
 	"name": "Biancaneve",
 	"ingr": "Mozzarella, carciofi, grana padano",
-	"price":"€ 8,00"
+	"price":"€ 8,00",
+	"type": 0,
+	"pos": 37
 },
 {
 	"name": "Estate",
 	"ingr": "Mozzarella, pomodorini, zucchine, mais",
-	"price":"€ 8,50"
+	"price":"€ 8,50",
+	"type": 0,
+	"pos": 38
 },
 {
 	"name": "Saporita",
 	"ingr": "Mozzarella, speck, porcini",
-	"price":"€ 9,00"
+	"price":"€ 9,00",
+	"type": 0,
+	"pos": 39
 }
 ]

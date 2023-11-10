@@ -3,8 +3,8 @@ const Pizza = require("../models/pizzas.js");
 
 const menu = async (req , res)=>{
     try {
-        const pizzas = await Pizza.find({type:1});
-        const pizzasb = await Pizza.find({type:0});
+        const pizzas = await Pizza.find({type:1}).sort({pos:1});
+        const pizzasb = await Pizza.find({type:0}).sort({pos:1});
         res.render("menu" , {pizzas , pizzasb});
         
     } catch (error) {

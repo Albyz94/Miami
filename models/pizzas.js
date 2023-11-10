@@ -9,7 +9,8 @@ const pizza = new Schema ({
     name: String,
     ingr: String,
     price: String,
-    type: Number
+    type: Number,
+    pos: Number
 });
 
 const Pizza = mongoose.model("Pizza" , pizza);
