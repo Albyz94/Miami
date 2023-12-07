@@ -9,10 +9,11 @@ const mongoose = require("mongoose");
 
 const pass = process.env.MONGODB_PASS;
 const uri = "mongodb+srv://albyzeta:"+pass+"@nodetuts.bfsfj3y.mongodb.net/Menu"
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(uri).then(()=> {
-    app.listen(3000 , (req , res)=> {
-        console.log("connected and listening on 3000");
+    app.listen(PORT , (req , res)=> {
+        console.log("connected and listening on" + PORT);
     })
 })
 .catch((err)=>{
