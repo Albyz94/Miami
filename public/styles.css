@@ -21,6 +21,7 @@ section {
     color: var(--fcolor);
     background-color: var(--primary);
     padding-bottom: 100px;
+    
 }
 
 .sec-container {
@@ -34,7 +35,7 @@ section {
     display: grid;
     justify-content: center;
     align-items: center;
-    padding-top: 25vh;
+    padding-top: 40px;
     text-shadow: 2px 7px 10px rgb(0, 0, 0);
 }
 
@@ -46,17 +47,19 @@ section {
 }
 
 .sec1-payoff {
-    display: grid;
-    justify-content: center;
+    display: flex;
     font-size: 45px;
+    padding: 100px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
-
 
 footer{
     display: grid;
     grid-template-columns: 10% 2fr 2fr 2fr 10%;
     background-color: var(--secondary);
     color: var(--fcolor);
+    
 }
 
 a {
@@ -69,6 +72,7 @@ a {
     display: grid;
     justify-content: center;
     /* margin-left: 10px; */
+    padding: 10%;
 }
 
 .nav-container {
@@ -101,11 +105,25 @@ a {
     background-image: url(/images/section1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode:soft-light;
+    background-blend-mode:multiply;
     background-position: center;
-    
+    height: 74.3vh;
 }
 
+.filler {
+    display: flex;
+    justify-content: center;
+}
+
+.btnMenu {
+    font-family: var(--mainFont);
+    font-weight: 500;
+    font-size: xx-large;
+    color: var(--fcolor);
+    background-color: var(--secondary);
+    border-radius: 15px;
+    cursor: pointer;
+}
 
 .nav-container2 {
     visibility: hidden;
@@ -162,4 +180,13 @@ a {
     padding-top: 2px;
     padding-left: 2px;
     color: white;
+}
+
+.logo-img {
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    height: 200px;
+    width: 450px;
+    
 }
