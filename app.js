@@ -29,6 +29,9 @@ app.get("/" , (req , res) => {
     res.render("index");
 });
 
+app.get("/contacts" , (req , res)=> {
+    res.render("contact");
+});
 // app.get("/menu" , async (req , res)=> {
 //     try {
 //         const pizzas = await Pizza.find({type:1});
@@ -44,6 +47,8 @@ app.get("/" , (req , res) => {
 // app.get("/pizzas" , async (req , res) => {
 //     res.redirect("/menu");
 // });
+
+
 
 app.use(menuRouter);
 
