@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const uri = "mongodb+srv://albyzeta:1234@nodetuts.bfsfj3y.mongodb.net/Menu";
+// const uri = "mongodb+srv://albyzeta:1234@nodetuts.bfsfj3y.mongodb.net/Menu";
 
 mongoose.connect(uri)
 
