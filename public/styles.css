@@ -22,7 +22,7 @@ section {
     border-bottom: solid 5px black;
     color: var(--fcolor);
     background-color: var(--primary);
-    padding-bottom: 100px;
+    padding-bottom: 2%;
     
 }
 
@@ -69,7 +69,6 @@ footer{
     grid-template-columns: 10% 2fr 2fr 2fr 10%;
     background-color: var(--secondary);
     color: var(--fcolor);
-    
 }
 
 a {
@@ -143,6 +142,30 @@ a {
 
 .fa-bars , .fa-xmark {
     opacity: 0;
+}
+
+.fa-facebook {
+    color: #3b5998;
+    font-size: 40px;
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: #3b5998;
+    background: -webkit-linear-gradient(#405DE6, #5851DB ,#833AB4, #C13584 , #E1306C, #FD1D1D, #F56040 , #F77737 , #FCAF45 , #FFDC80  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 10% 2fr 2fr 10%;
+    padding: 10px;
 }
 
 .section2 {
