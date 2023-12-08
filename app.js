@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 mongoose.connect(uri).then(()=> {
     app.listen(PORT , (req , res)=> {
-        console.log("connected and listening on" + PORT);
+        console.log("connected and listening on " + PORT);
     })
 })
 .catch((err)=>{
