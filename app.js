@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-// const dotenv = require("dotenv").config();
+const dotenv = require("dotenv").config();
 const menuRouter = require("./routes/menuRoutes")
 // const Pizza = require("./models/pizzas.js");
 const app = express();
