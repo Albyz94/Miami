@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const dotenv = require("dotenv").config();
+// const dotenv = require("dotenv").config();
 const menuRouter = require("./routes/menuRoutes")
 // const Pizza = require("./models/pizzas.js");
 const app = express();
@@ -17,10 +17,11 @@ mongoose.connect(uri).then(()=> {
     })
 })
 .catch((err)=>{
-    console.log(err);
+    console.error("Error connecting to MongoDB: " + err);
 });
 
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 app.set("view engine" , "ejs");
 
 app.get("/" , (req , res) => {
