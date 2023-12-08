@@ -1,3 +1,4 @@
+/* MEDIA 1 */
 @media screen and (max-width: 1400px) {
     .ingMargherita {
         margin-bottom: -40px;
@@ -86,8 +87,24 @@
         width: 50px;
         font-size: small;
     }
-    
-/* } */
+
+    .section2 {
+        /* background-color: var(--primary); */
+        background-image: url(/images/clap.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode:multiply;
+        background-position: end;
+        display: grid;
+        /* justify-content: center; */
+        justify-items: center;
+        grid-template-rows: auto;
+        padding-top: 50px;    
+    }
+}
+/* END MEDIA 1 */
+
+/* MEDIA 2 */
 
 @media screen and (max-width: 800px) {
     .section1 {
@@ -118,7 +135,7 @@
     }
     
     .filler {
-        padding: 50px;
+        padding: 30px;
     }
 
     footer {
@@ -164,10 +181,27 @@
         width: 50px;
         font-size: small;
     }
+
+    .section2 {
+        /* background-color: var(--primary); */
+        background-image: url(/images/clap.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode:multiply;
+        background-position: end;
+        display: grid;
+        /* justify-content: center; */
+        justify-items: center;
+        grid-template-rows: auto;
+        padding-top: 50px;    
+    }
     
     
 }
+/* END MEDIA 2 */
 
+
+/* MEDIA 3 */
 @media screen and (max-width: 830px) {
     .nav-menu {
         visibility: hidden;
@@ -253,7 +287,7 @@
     }
 
     .filler {
-        padding: 50px;
+        padding: 30px;
     }
 
     footer {
@@ -300,11 +334,27 @@
         font-size: small;
     }
     
+    .section2 {
+        /* background-color: var(--primary); */
+        background-image: url(/images/clap.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode:multiply;
+        background-position: end;
+        display: grid;
+        /* justify-content: center; */
+        justify-items: center;
+        grid-template-rows: auto;
+        padding-top: 50px;    
+    }
     
 }
+/* END MEDIA 3 */
 
 
+/* MEDIA 4 */
 @media screen and (max-width: 700px) {
+
     .sec1-title {
         display: grid;
         justify-content: center;
@@ -323,7 +373,7 @@
     }
 
     .filler {
-        padding: 50px;
+        padding: 30px;
     }
     
     .logo-img {
@@ -341,7 +391,7 @@
         background-repeat: no-repeat;
         background-blend-mode:multiply;
         background-position: center;
-        
+        height: 60vh;
     }
     
     .sec1-payoff {
@@ -399,5 +449,20 @@
         width: 50px;
         font-size: small;
     }
+
+    .section2 {
+        /* background-color: var(--primary); */
+        background-image: url(/images/clap.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode:multiply;
+        background-position: end;
+        display: grid;
+        /* justify-content: center; */
+        justify-items: center;
+        grid-template-rows: auto;
+        padding-top: 50px;    
+    }
     
 }
+/* END MEDIA 4 */
