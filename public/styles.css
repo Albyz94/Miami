@@ -7,6 +7,7 @@
 --primary: rgb(26, 26, 26) ;
 --secondary: rgb(54, 53, 53) ;
 --fcolor: rgb(249, 249, 249);
+scroll-behavior: smooth;
 }
 
 body {
@@ -137,10 +138,39 @@ a {
 
 .section2 {
     background-color: var(--primary);
-
+    display: grid;
+    /* justify-content: center; */
+    justify-items: center;
+    grid-template-rows: auto;
+    padding-top: 50px ;
+    
 }
 
 .sec2-title {
+    font-size: xx-large;
+}
+.orario {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+    padding-top: 5px;
+}
+
+.weekDays{
+    display: grid;
+    justify-content: center;
+    padding: 25px;
+    width: 200px;
+}
+
+.hoursMorning , .hoursAfternoon {
+    display: grid;
+    justify-content: center;
+    padding: 25px;
+    width: 100;
+}
+
+/* .sec2-title {
     display: grid;
     justify-content: center;
     background-color: var(--primary);
@@ -148,7 +178,7 @@ a {
     font-size: 56px ;
     padding-top: 200px;
     padding-bottom: 95px;
-}
+} */
 
 .menu-container {
     display: grid;
@@ -164,10 +194,10 @@ a {
 
 } */
 
-.section3 {
+/* .section3 {
     background-color: var(--primary);
     
-}
+} */
 
 .footer {
     padding-top: 40px;

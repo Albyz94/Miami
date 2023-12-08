@@ -43,6 +43,23 @@
     .p-price {
         width: 50px;
     }
+
+    .hoursMorning, .hoursAfternoon{
+        display: grid;
+        justify-content: center;
+        /* padding: 25px; */
+        width: 100px;
+        font-size: small;
+    }
+
+    .weekDays {
+        display: grid;
+        justify-content: center;
+        /* padding: 25px; */
+        width: 50px;
+        font-size: small;
+    }
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -94,6 +111,23 @@
     .p-price {
         width: 50px;
     }
+
+    .hoursMorning, .hoursAfternoon{
+        display: grid;
+        justify-content: center;
+        /* padding: 25px; */
+        width: 100px;
+        font-size: small;
+    }
+
+    .weekDays {
+        display: grid;
+        justify-content: center;
+        /* padding: 25px; */
+        width: 50px;
+        font-size: small;
+    }
+    
     
 }
 
@@ -202,6 +236,23 @@
     .p-price {
         width: 50px;
     }
+
+    .hoursMorning, .hoursAfternoon{
+        display: grid;
+        justify-content: center;
+        /* padding: 25px; */
+        width: 100px;
+        font-size: small;
+    }
+
+    .weekDays {
+        display: grid;
+        justify-content: center;
+        /* padding: 25px; */
+        width: 50px;
+        font-size: small;
+    }
+    
     
 }
 
@@ -276,6 +327,23 @@
     .bianTit {
         font-size: xx-large;
     }
+
+    .hoursMorning, .hoursAfternoon{
+        display: grid;
+        justify-content: center;
+        /* padding: 25px; */
+        width: 100px;
+        font-size: small;
+    }
+
+    .weekDays {
+        display: grid;
+        justify-content: center;
+        /* padding: 25px; */
+        width: 50px;
+        font-size: small;
+    }
+    
 }
 
 .ingMargherita {
