@@ -191,3 +191,13 @@ a {
     width: 450px;
     
 }
+
+.credits {
+    font-size: small;
+    padding-bottom: 2px;
+}
+
+.cont-cred {
+    display: flex;
+    justify-content: center;
+}
