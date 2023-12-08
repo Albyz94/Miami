@@ -146,7 +146,7 @@ a {
     
 }
 
-.sec2-title {
+.orario-title {
     font-size: xx-large;
 }
 .orario {
@@ -159,18 +159,19 @@ a {
 .weekDays{
     display: grid;
     justify-content: center;
-    padding: 25px;
+    padding: 15px;
     width: 200px;
+    padding-left: 25px;
 }
 
 .hoursMorning , .hoursAfternoon {
     display: grid;
     justify-content: center;
-    padding: 25px;
+    padding: 15px;
     width: 100;
 }
 
-/* .sec2-title {
+.sec2-title {
     display: grid;
     justify-content: center;
     background-color: var(--primary);
@@ -178,7 +179,7 @@ a {
     font-size: 56px ;
     padding-top: 200px;
     padding-bottom: 95px;
-} */
+}
 
 .menu-container {
     display: grid;

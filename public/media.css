@@ -1,4 +1,31 @@
 @media screen and (max-width: 1400px) {
+    .ingMargherita {
+        margin-bottom: -40px;
+        margin-left: 20px;
+        visibility: hidden;
+    }
+}
+
+    @media screen and (max-width: 800px) {
+        .section1 {
+            background-color: var(--secondary);
+            background-image: url(/public/images/section1.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-blend-mode:multiply
+            
+        }
+        
+        .sec2-title {
+            display: grid;
+            justify-content: center;
+            background-color: var(--primary);
+            color: var(--fcolor);
+            font-size: 40px ;
+            padding-top: 100px;
+            padding-bottom: 95px;
+        }
+
     .sec1-title {
         display: grid;
         justify-content: center;
@@ -60,7 +87,7 @@
         font-size: small;
     }
     
-}
+/* } */
 
 @media screen and (max-width: 800px) {
     .section1 {
@@ -70,6 +97,16 @@
         background-repeat: no-repeat;
         background-blend-mode:multiply
         
+    }
+    
+    .sec2-title {
+        display: grid;
+        justify-content: center;
+        background-color: var(--primary);
+        color: var(--fcolor);
+        font-size: 40px ;
+        padding-top: 100px;
+        padding-bottom: 95px;
     }
 
     .logo-img {
@@ -144,6 +181,16 @@
         background-repeat: no-repeat;
         background-blend-mode:multiply;
         background-position: center;  
+    }
+
+    .sec2-title {
+        display: grid;
+        justify-content: center;
+        background-color: var(--primary);
+        color: var(--fcolor);
+        font-size: 40px ;
+        padding-top: 100px;
+        padding-bottom: 95px;
     }
 
     .logo-img {
@@ -265,6 +312,16 @@
         
     }
 
+    .sec2-title {
+        display: grid;
+        justify-content: center;
+        background-color: var(--primary);
+        color: var(--fcolor);
+        font-size: 40px ;
+        padding-top: 100px;
+        padding-bottom: 95px;
+    }
+
     .filler {
         padding: 50px;
     }
@@ -276,7 +333,6 @@
         height: 150px;
         width: 350px;       
     }
-
 
     .section1 {
         background-color: var(--secondary);
@@ -346,8 +402,3 @@
     
 }
 
-.ingMargherita {
-    margin-bottom: -40px;
-    margin-left: 20px;
-    visibility: hidden;
-}
