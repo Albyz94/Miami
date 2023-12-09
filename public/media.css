@@ -465,8 +465,8 @@
         display: grid;
         justify-content: center;
         /* margin-left: 10px; */
-        padding: 5px;
-        font-size:smaller;
+        /* padding: 5px; */
+        font-size:10px;
     }
 
     .p-name , .p-ingr , .p-price {

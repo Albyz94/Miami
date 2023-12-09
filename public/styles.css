@@ -58,7 +58,7 @@ section {
 
 footer{
     display: grid;
-    grid-template-columns: 10% 2fr 2fr 2fr 10%;
+    grid-template-columns: 5% 2fr 2fr 2fr 5%;
     background-color: var(--secondary);
     color: var(--fcolor);
 }
@@ -72,16 +72,10 @@ a {
 
 .foo-el {
     display: grid;
-    justify-content: center;
+    /* justify-content: center; */
     /* margin-left: 10px; */
     padding: 10px;
     text-align: center;
-}
-
-.foo-el span {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: fit-content;
 }
 
 .nav-container {
