@@ -80,7 +80,7 @@ a {
 
 .nav-container {
     display: grid;
-    grid-template-columns: 10% 2fr 4fr 10%;
+    grid-template-columns: 10% 2fr 7fr 10%;
     background-color: var(--secondary);
 }
 
@@ -91,7 +91,8 @@ a {
 
 
 .nav-menu a {
-    margin-left: 5vw;
+    margin-left: 30px;
+    width: max-content;
 }
 
 .nav-menu2 {

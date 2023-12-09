@@ -16,7 +16,7 @@
             background-blend-mode:multiply
             
         }
-        
+
         .sec2-title {
             display: grid;
             justify-content: center;
@@ -416,8 +416,7 @@
         justify-content: center;
         font-size: 25px;
         
-    }
-
+    
     .sec2-title {
         display: grid;
         justify-content: center;
@@ -546,6 +545,7 @@
     .orario-title, .sec3-tit {
         font-size: larger;
     }
+    
     
 }
 /* END MEDIA 4 */
