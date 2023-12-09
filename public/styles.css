@@ -116,14 +116,13 @@ a {
     background-blend-mode:multiply;
     /* padding: 30px; */
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 10%fr 1fr 1fr 1fr;
     justify-content: center;
 }
 
 .filler {
     display: grid;
     justify-content: center;
-    position: static;
 }
 
 .btnMenu {
@@ -254,7 +253,7 @@ a {
 
 .sec3-subcont {
     display: grid;
-    grid-template-columns: 10% 2fr 1fr 10%;
+    grid-template-columns: 85% 15%;
     justify-content: center;
 }
 
