@@ -1,12 +1,5 @@
 <%- include("./head.ejs") %>
-    <section class="section1">
-        <div class="sec-container">
-            <div class="filler"></div>
-            <div class="sec-par sp-left">
-                <!-- <div class="sec1-title">
-                    Dove il gusto incontra la leggerezza
-                </div> -->
-
+    <section class="section1">                
                 <img class="logo-img" src="/images/FlyerRisorsa 1.png" alt="">
                 <div class="sec1-payoff">
                     <span class="payoff">Più di un luogo dove mangiare: un'esperienza sensoriale che ti catturerà fin dal primo olfatto.
@@ -20,13 +13,13 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
+
+
     </section>
-    <!-- <div class="sec2-title"> </div> -->
+
     <section class="section2">
-        <span class="orario-title">Orario Settimanale</span>
-        <div class="orario">
+        <div class="orario-title">Orario Settimanale</div>
+        <div class="orario" id="orario">
             <div class="weekDays">
                 <span>Giorno</span> <br>
                 <span>Lunedì</span>
@@ -62,8 +55,24 @@
         </div>
         </div>
     </section>
-    <!-- <section class="section3" >
 
-    </section> -->
+    <section class="section3" >
+        <span class="sec3-tit">Menu Fisso</span>
+        <span class="sec3-subtit sec3-media" >Dal Lunedì al Venerdì Menu Fisso:</span>
+        <div class="sec3-subcont sec3-media">
+            <div></div>
+            <div class="menuFisso">
+                <span>Completo: Primo, Secondo, Contorno, 1/4 Vino, 1/2 Acqua, Caffè</span>
+                <span>Solo Primo: Primo, Contorno, 1/4 Vino, 1/2 Acqua, Caffè</span>
+                <span>Solo Secondo: Secondo, Contorno, 1/4 Vino, 1/2 Acqua, Caffè</span>
+            </div>
+            <div class="menufisso-price">
+                <span>€ 13,00</span>
+                <span>€ 11,00</span>
+                <span>€ 10,00</span>
+            </div>
+            <div></div>
+        </div>
+    </section>
     <%- include("footer.ejs") %>
         <%- include("credits.ejs") %>

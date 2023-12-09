@@ -6,7 +6,6 @@ const menuRouter = require("./routes/menuRoutes")
 const app = express();
 const path = require("path");
 const mongoose = require("mongoose");
-
 const pass = process.env.MONGODB_PASS;
 const uri = "mongodb+srv://albyzeta:"+pass+"@nodetuts.bfsfj3y.mongodb.net/Menu"
 const PORT = process.env.PORT || 3000;
@@ -20,6 +19,7 @@ mongoose.connect(uri).then(()=> {
     console.error("Error connecting to MongoDB: " + err);
 });
 
+
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.set("view engine" , "ejs");
@@ -32,6 +32,8 @@ app.get("/" , (req , res) => {
 app.get("/contacts" , (req , res)=> {
     res.render("contact");
 });
+
+
 // app.get("/menu" , async (req , res)=> {
 //     try {
 //         const pizzas = await Pizza.find({type:1});
@@ -47,8 +49,7 @@ app.get("/contacts" , (req , res)=> {
 // app.get("/pizzas" , async (req , res) => {
 //     res.redirect("/menu");
 // });
-
-
+  
 
 app.use(menuRouter);
 

@@ -23,29 +23,21 @@ section {
     color: var(--fcolor);
     background-color: var(--primary);
     padding-bottom: 2%;
-    
 }
 
-.sec-container {
-    display: grid;
-    /* height: inherit; */
-    /* grid-template-columns: 10% 40% 40% 10%; */
-    color: var(--fcolor);
-}
 
-.sp-left {
+/* .sp-left {
     display: grid;
     justify-content: center;
     align-items: center;
     padding-top: 40px;
     text-shadow: 2px 7px 10px rgb(0, 0, 0);
-}
+} */
 
 .sec1-title {
     display: grid;
     justify-content: center;
     font-size: 60px;
-    
 }
 
 .payoff {
@@ -82,7 +74,14 @@ a {
     display: grid;
     justify-content: center;
     /* margin-left: 10px; */
-    padding: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.foo-el span {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
 }
 
 .nav-container {
@@ -111,18 +110,20 @@ a {
 
 
 .section1 {
-    background-color: var(--secondary);
+
     background-image: url(/images/section1.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-blend-mode:multiply;
-    background-position: center;
-    height: 74.3vh;
+    /* padding: 30px; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
 }
 
 .filler {
-    display: flex;
+    display: grid;
     justify-content: center;
+    position: static;
 }
 
 .btnMenu {
@@ -179,7 +180,7 @@ a {
     /* justify-content: center; */
     justify-items: center;
     grid-template-rows: auto;
-    padding-top: 50px;    
+    padding-top: 50px;
 }
 
 .periodo {
@@ -220,6 +221,48 @@ a {
     font-size: 56px ;
     padding-top: 200px;
     padding-bottom: 95px;
+}
+
+.section3 {
+    background-image: url(/images/pasta.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+    background-position: end;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.sec3-subtit {
+    display: grid;
+    justify-content: center;
+}
+
+.menuFisso {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.menufisso-price {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: end;
+    align-items: center;
+}
+
+.sec3-subcont {
+    display: grid;
+    grid-template-columns: 10% 2fr 1fr 10%;
+    justify-content: center;
+}
+
+.sec3-tit {
+    font-size: xx-large;
+    padding-top: 20px;
+    display: grid;
+    justify-content: center;
 }
 
 .menu-container {
