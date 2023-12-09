@@ -255,6 +255,8 @@ a {
     display: grid;
     grid-template-columns: 85% 15%;
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .sec3-tit {
