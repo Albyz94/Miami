@@ -151,7 +151,7 @@ a {
     font-size: 40px;
     color: #3b5998;
     background: -webkit-linear-gradient(#405DE6, #5851DB ,#833AB4, #C13584 , #E1306C, #FD1D1D, #F56040 , #F77737 , #FCAF45 , #FFDC80  );
-  -webkit-background-clip: text;
+    background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -250,6 +250,7 @@ a {
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: end;
     align-items: center;
+    font-size: 25px;
 }
 
 .sec3-subcont {
