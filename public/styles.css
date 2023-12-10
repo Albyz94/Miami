@@ -222,6 +222,10 @@ a {
     padding-bottom: 95px;
 }
 
+.orario span {
+    padding-bottom: 10px;
+}
+
 .section3 {
     background-image: url(/images/pasta.jpg);
     background-size:cover;
@@ -259,6 +263,10 @@ a {
     justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.sec3-subcont span {
+    padding-bottom: 10px;
 }
 
 .sec3-tit {
@@ -307,7 +315,7 @@ a {
     align-content: center;
     height: 300px;
     width: 650px;
-    
+    padding-top: 40px;
 }
 
 .credits {

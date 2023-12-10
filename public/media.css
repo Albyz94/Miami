@@ -46,6 +46,7 @@
         align-content: center;
         height: 150px;
         width: 350px;
+        padding-top: 20px;
     }
 
     .foo-el {
@@ -78,7 +79,7 @@
         justify-content: center;
         /* padding: 25px; */
         width: 100px;
-        font-size: small;
+        font-size: medium;
     }
 
     .weekDays {
@@ -86,7 +87,7 @@
         justify-content: center;
         /* padding: 25px; */
         width: 50px;
-        font-size: small;
+        font-size: medium;
     }
 
     .section2 {
@@ -119,6 +120,21 @@
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
         background-blend-mode: soft-light;
+    }
+
+    .menuFisso {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        font-size: small;
+    }
+
+    .menufisso-price {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: end;
+        align-items: center;
+        font-size: small;
     }
 }
 /* END MEDIA 1 */
@@ -191,7 +207,7 @@
         justify-content: center;
         /* padding: 25px; */
         width: 100px;
-        font-size: small;
+        font-size: medium;
     }
 
     .weekDays {
@@ -199,7 +215,7 @@
         justify-content: center;
         /* padding: 25px; */
         width: 50px;
-        font-size: small;
+        font-size: medium;
     }
 
     .section2 {
@@ -238,6 +254,20 @@
         margin-left: 15px;
     }
     
+    .menuFisso {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        font-size: small;
+    }
+
+    .menufisso-price {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: end;
+        align-items: center;
+        font-size: small;
+    }
     
 }
 /* END MEDIA 2 */
@@ -371,7 +401,7 @@
         justify-content: center;
         /* padding: 25px; */
         width: 100px;
-        font-size: small;
+        font-size: medium;
     }
 
     .weekDays {
@@ -379,7 +409,7 @@
         justify-content: center;
         /* padding: 25px; */
         width: 50px;
-        font-size: small;
+        font-size: medium;
     }
     
     .section2 {
@@ -411,6 +441,21 @@
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
         background-blend-mode: soft-light;
+    }
+
+    .menuFisso {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        font-size: medium;
+    }
+
+    .menufisso-price {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: end;
+        align-items: center;
+        font-size: medium;
     }
     
 }
