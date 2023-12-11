@@ -1,7 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const dotenv = require("dotenv").config();
-const menuRouter = require("./routes/menuRoutes")
+const menuRouter = require("./routes/menuRoutes");
+const adjectives = require ("./adjective");
 // const Pizza = require("./models/pizzas.js");
 const app = express();
 const path = require("path");
@@ -24,9 +25,17 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.set("view engine" , "ejs");
 
+
 app.get("/" , (req , res) => {
+    function setAdj() {
+        const adjRand = Math.floor(Math.random()*11);
+        return adjRand;
+    }
+
+    // const adjRand = Math.floor(Math.random()*11);
     // res.sendFile(__dirname + "/public/index.html");
-    res.render("index");
+    res.render("index", {adjective: adjectives[setAdj()]});
+    
 });
 
 app.get("/contacts" , (req , res)=> {

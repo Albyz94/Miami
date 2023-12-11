@@ -1,6 +1,6 @@
 :root {
 /* FONT */
---mainFont:'Montserrat Alternates', sans-serif;
+--mainFont:'Quicksand', sans-serif;
 --secFont: 'Uchen', serif;
 --secFont:"";
 /* COLORS */
@@ -50,7 +50,7 @@ section {
 
 .sec1-payoff {
     display: flex;
-    font-size: 30px;
+    font-size: 38px;
     padding: 100px;
     justify-content: center;
     text-align: center;
@@ -313,9 +313,9 @@ a {
     display: flex;
     justify-self: center;
     align-content: center;
-    height: 300px;
-    width: 650px;
-    padding-top: 40px;
+    height: 200px;
+    width: 600px;
+    padding-top: 90px;
 }
 
 .credits {
